@@ -1,0 +1,48 @@
+.book-list-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.book-list-table th,
+.book-list-table td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.book-list-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.book-list-table td {
+  background-color: #ffffff;
+  color: #555;
+}
+
+.book-list-table button {
+  margin-right: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.book-list-table button:hover {
+  background-color: #218838;
+}
+
+.book-list-table button.delete-button {
+  background-color: #dc3545;
+}
+
+.book-list-table button.delete-button:hover {
+  background-color: #c82333;
+}
